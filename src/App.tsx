@@ -92,7 +92,7 @@ function App() {
               <Button className="w-35" onClick={handleSelectImageClick}>选择图片</Button>
               <Button className="w-35">上传</Button> {/* Upload button logic not implemented yet */}
               <DrawerClose>
-                <Button variant="outline">继续浏览</Button>
+                <Button variant="outline">取消</Button>
               </DrawerClose>
             </DrawerFooter>
           </DrawerContent>
